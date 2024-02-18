@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+{font-family: 'Racing Sans One', cursive;}
+{font-family: 'Oswald', sans-serif;}
+
+
+.navbar
+{   border-top-style: groove;
+  border-top-color: #7DA2A9;
+	border-bottom-style:inset;
+	border-bottom-color:#7DA2A9; 
+	border-bottom-width:thin;}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, .15);}
+.navbar-brand
+{   font-size: 40px;
+	text-align: left;
+	align-items: center;
+	padding: 10px 10px;
+	color:#051622; 
+	font-family: 'Racing Sans One', cursive;
+    line-height: 12px;}
+.navbar a
+{  font-size: 18px;
+   color:#051622;
+   text-align:justify;
+   text-decoration: none;
+   padding: 7px 12px;
+   font-family: 'Cabin Condensed', sans-serif;
+   align-items:flex-start;}
+.navbar a:hover
+{ color:#051622;
+  padding: 6px 10px;
+  background:#EFF1F3;
+  border-radius: 15px;}
+.head
+{  margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;}
+.head img
+{ border-bottom-right-radius: 140px;
+  border-top-left-radius: 140px;}
+.head h4
+{ font-size: 28px;
+  color: #051622;
+	font-family: 'Racing Sans One', cursive;}
+.card-body 
+{ font-size: 15px;
+}
+.card-body h5 
+{ color:#8AA899;
+  font-family: 'Racing Sans One', cursive;}
+.card-body,.card-footer p,h4 
+{color:#000000;}
+.card:hover
+{ border-bottom:#8AA899 inset 8px;
+  box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.1);}
+.heading
+{ background: url("../assets/120628-312x312.jpg");
+  background-size: 100% 100%;
+  box-sizing: border-box; }
+.heading h4
+{ font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 8px 10px;
+  font-family: 'Racing Sans One', cursive;}
+.pre
+{  background-color:rgb(220, 224, 228);
+   border-bottom-style: groove;
+   border-bottom-color: #7DA2A9;
+   padding: 10px 10px;}
+.pre1
+{  text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   border-radius: 4px;}
+.pre1 .card
+{background:#E6EEF1;
+padding: 10px 10px;}
+.pre1 h2
+{ font-size: 20px;
+  text-align:center;
+  align-items: center;
+  padding: 10px 5px;
+  font-family: 'Oswald', sans-serif;}
+.pre1 p
+{ font-size: 12px;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Oswald', sans-serif;}
+.pre1 i
+{ color: #7DA2A9;}
+form input[type="text"]
+{   padding: 3px 5px;
+	margin-bottom: 8px;
+	width: 320px;
+	font-size: 15;
+	height: 40px;
+    border-radius: 6px;}
+form input[type="text"]:hover
+{   color: #051622; 
+	font-size: 17px; }
+#btn1
+{ align-items:stretch;
+  justify-content:space-around;
+  text-align:right;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622;
+  border-style:outset;
+  border-width: thin;
+  border-radius: 20px;
+  padding: 10px 10px;
+  font-family: 'Oswald', sans-serif;}
+.head1 h2
+{ font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  align-items: center;
+  padding: 10px 5px;
+  font-family: 'Oswald', sans-serif;}
+.head1 p
+{ font-size: 12px;
+  text-align:center;
+  align-items: center;
+  padding: 5px 5px;
+  font-family: 'Oswald', sans-serif;}
+.head1 .card
+{border-bottom-right-radius: 100px;
+ border-top-left-radius: 100px;
+ border: #7DA2A9 ridge thin;
+ background: url("../assets/120628-312x312.jpg");
+  background-size: 100% 100%;
+  box-sizing: border-box; }
+#btn1,.btn
+{ text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622 outset thin;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Oswald', sans-serif;}
+
+.ftr{
+	background-color:rgb(220, 224, 228);}
+.ftr{ border-top-style: groove;
+	border-top-color: #7DA2A9;
+	}
+  .logftr:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+
+
+
+
+
+

@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+
+   
+.navbar
+{   border-top-style: groove;
+  border-top-color: #7DA2A9;
+	border-bottom-style:inset;
+	border-bottom-color:#7DA2A9; 
+	border-bottom-width:thin;}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, .15);}
+.navbar-brand
+{   font-size: 40px;
+	text-align: left;
+	align-items: center;
+	padding: 10px 10px;
+	color:#051622; 
+	font-family: 'Racing Sans One', cursive;
+    line-height: 12px;}
+.navbar a
+{  font-size: 18px;
+   color:#051622;
+   text-align:justify;
+   text-decoration: none;
+   padding: 7px 12px;
+   font-family: 'Cabin Condensed', sans-serif;
+   align-items:flex-start;}
+.navbar a:hover
+{ color:#051622;
+  padding: 6px 10px;
+  background:#EFF1F3;
+  border-radius: 15px;}
+      #intro section {
+        height: 70px;
+      }
+      .ftr{
+        background-color:rgb(220, 224, 228);}
+    .ftr{ border-top-style: groove;
+        border-top-color: #7DA2A9;
+        }
+       .heading {
+        background-color: #EFF1F3;
+        padding: 5em;
+        height: 500px;
+        font-family: 'Racing Sans One', cursive;
+        text-align: center;
+        background-image: url('../Assets/pic\ 6.jpg');
+        width: 100%;
+        height: 80vh;
+        background-size: 100% 100%;
+        position: relative;
+        text-align: center;
+        padding-top: 7em;
+        box-sizing: border-box;
+    }
+       
+       .card h5{
+        font-family: 'Racing Sans One', cursive;
+       }
+     .col-9 {
+      background-color: #EFF1F3;
+      }
+       .card:hover {
+        border-bottom:5px  solid #8AA899;
+       }
+.sect3{
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 20px;
+  justify-content: space-between;
+  background-color: #fff;
+  border-color:#7DA2A9;
+height: 100px;
+border-bottom:#7DA2A9;
+
+border-bottom-style:inset;
+border-color:#7DA2A9; 
+border-bottom-width:thin;
+margin-top: 100px;
+
+}
+
+.sec3 label{
+ padding-left: 700px;
+ border-color:#7DA2A9;
+
+}
+.sec3 i {
+  color:forestgreen;
+  border-color:#7DA2A9;
+}
+.flt{
+  height: 200px;
+}
+.pre
+{  background-color:rgb(220, 224, 228);
+   border-bottom-style: groove;
+   border-bottom-color: #7DA2A9;
+   padding: 10px 10px;
+}
+.pre1
+{  text-align: center;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+   border-radius: 4px;}
+.pre1 .card
+{background:#E6EEF1;
+padding: 10px 10px;}
+.pre1 h2
+{ font-size: 20px;
+  text-align:center;
+  align-items: center;
+  padding: 10px 5px;
+  font-family: 'Oswald', sans-serif;}
+.pre1 p
+{ font-size: 12px;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Oswald', sans-serif;}
+.pre1 i
+{ color: #7DA2A9;}
+#btn1,.btn
+{ text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622 outset thin;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Oswald', sans-serif;}
+  .contact
+{  background: #EFF1F3;
+   padding: 4px 10px;
+   border-top-style:groove;
+   border-top-color:#7DA2A9;
+   border-width: thin;}
+.contact h1
+{ font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 4px 10px;
+  font-family: 'Racing Sans One', cursive;}
+.contact p
+{ font-size: 14px;
+  text-align:center;
+  align-items: center;}
+{   background:#E7ECEF;
+	width: 100%;
+    border-top-style: groove;
+	border-top-color: #7DA2A9;}
+.ftr{
+	background-color:rgb(220, 224, 228);}
+.ftr{ border-top-style: groove;
+	border-top-color: #7DA2A9;
+	}
+  .logftr:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .form-control:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);  
+  }

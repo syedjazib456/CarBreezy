@@ -1,0 +1,241 @@
+@charset "utf-8";
+/* CSS Document */
+
+{font-family: 'Racing Sans One', cursive;}
+{font-family: 'Oswald', sans-serif;}
+.navbar
+{   border-top-style: groove;
+  border-top-color: #7DA2A9;
+	border-bottom-style:inset;
+	border-bottom-color:#7DA2A9; 
+	border-bottom-width:thin;}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, .15);}
+.navbar-brand
+{   font-size: 40px;
+	text-align: left;
+	align-items: center;
+	padding: 10px 10px;
+	color:#051622; 
+	font-family: 'Racing Sans One', cursive;
+     line-height: 12px;
+}
+.navbar a
+{  font-size: 18px;
+   color:#051622;
+   text-align:justify;
+   text-decoration: none;
+   padding: 7px 12px;
+   font-family: 'Cabin Condensed', sans-serif;
+   align-items:flex-start;}
+.navbar a:hover
+{ color:#051622;
+  padding: 6px 10px;
+  background:#EFF1F3;
+  border-radius: 15px;}
+
+.brands
+{ text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  background: #EFF1F3;}
+.brands img
+{padding: 2px 5px;}
+.brands
+{   border-bottom-style:inset;
+	border-bottom-color:#7DA2A9; 
+	border-bottom-width:thin;}
+.hiwork h2
+{ font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  align-items: center;
+  padding: 10px 10px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork p
+{ font-size: 16px;
+  text-align:center;
+  align-items: center;
+  padding: 10px 10px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork h3
+{ font-size: 30px;
+  font-weight: bold;
+  text-align:left;
+  align-items: center;
+  padding: 4px 60px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork h4
+{ font-size: 18px;
+  font-weight: bold;
+  text-align:left;
+  align-items: center;
+  padding: 4px 10px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork iframe
+{ align-items: center;
+	text-align: center;
+	padding: 4px 10px;}
+.card
+{ border:#7DA2A9;
+  border-left-style: groove;
+  border-right-style: groove;
+  border-bottom-style:outset;
+  border-bottom-width: thin;
+  border-top-style:outset;
+  border-top-width: thin;}
+
+.card i
+{ font-size: 20px;}
+.heading
+{ background: url("../assets/120628-312x312.jpg");
+  background-size: 100% 100%;
+  box-sizing: border-box; 
+}
+.heading h4
+{ font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 4px 10px;
+  font-family: 'Racing Sans One', cursive;}
+#c1
+{width: 300px;
+display: none;}
+.card-body 
+{ font-size: 15px;
+}
+.card-body h5 
+{ color:#8AA899;
+  font-family: 'Racing Sans One', cursive;}
+.card-body,.card-footer p,h4 
+{color:#000000;}
+.card:hover
+{ border-bottom:#8AA899 inset 8px;
+  box-shadow: 2px 2px 3px 3px rgba(0,0,0,0.1);}
+#form-1 input[type="text"]
+{   padding: 6px 40px;
+	text-align: center;
+	width: 200px;
+	margin-left: 20px;
+	font-size: 15;
+	height: 30px;
+    border-radius: 6px;}
+#form-1 input[type="text"]:hover
+{   color: #051622; 
+	font-size: 17px; }
+#c1 h2
+{ font-size: 25px;
+  text-align:center;
+  align-items: center;
+  padding: 10px 5px;
+  font-family: 'Oswald', sans-serif;}
+#c1 p,label
+{ font-size: 14px;
+  text-align:justify;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: 'Oswald', sans-serif;}
+#btn1
+{ text-align: right;
+  justify-content:space-around;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622;
+  border-style:outset;
+  border-width: thin;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-family: 'Oswald', sans-serif;}
+.hweasy img
+{ text-align: center;
+  align-items: center;}
+.hweasy p
+{ font-size: 14px;
+  text-align:justify;
+  align-items: center;}
+/* .btn
+{ align-items:stretch;
+  text-align:center;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622;
+  border-style:outset;
+  border-width: thin;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Oswald', sans-serif;} */
+.contact
+{  background: #EFF1F3;
+   padding: 4px 10px;
+   border-top-style:groove;
+   border-top-color:#7DA2A9;
+   border-width: thin;}
+.contact h1
+{ font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 4px 10px;
+  font-family: 'Racing Sans One', cursive;}
+.contact p
+{ font-size: 14px;
+  text-align:center;
+  align-items: center;
+  background:#E7ECEF;
+	width: 100%;
+    border-top-style: groove;
+	border-top-color: #7DA2A9;}
+.ftr{
+	background-color:rgb(220, 224, 228);}
+.ftr{ border-top-style: groove;
+	border-top-color: #7DA2A9;
+	}
+  .logftr:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  .form-control:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);  
+  }
+    /*}
+
+footer h6
+{  font-size: 20px;
+   font-weight: bold;
+   color:#051622;
+   text-align:center;
+   padding: 5px 5px;
+   font-family: 'Oswald', sans-serif;
+   align-items:center;}
+footer p
+{  font-size: 18px;
+   color:#051622;
+   text-align:center;
+   padding: 5px 10px;
+   font-family: 'Oswald', sans-serif;
+   align-items:center;}
+footer i
+{ font-size: 20px;}
+.copy p
+{   font-size:15px;
+    color:#8AA899;
+	text-align: center;
+	align-items: center;
+	background:#051622;
+	font-family: 'Oswald', sans-serif;}
+*/

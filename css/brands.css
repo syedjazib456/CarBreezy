@@ -1,0 +1,244 @@
+.head1{
+    text-align: center;
+    font-family: 'Racing Sans One', cursive;
+ 
+    padding-top: 25px;
+}
+.navbar-brand{
+    font-family: 'Racing Sans One', cursive;
+}
+.products-row{
+    display: flex;
+}
+
+ .fg{
+   background-image: url('../assets/120628-312x312.jpg');
+   margin-bottom: 15px;
+   padding-bottom: 15px;
+   margin-top: 50px;
+   border: black ridge thin;
+   
+   
+ }
+ .had{
+   font-family: 'Racing Sans One', cursive;
+   margin: 50px auto;
+   text-align: center;
+   font-size: 40px;
+   max-width: 1500px;
+   position: relative;
+
+ }
+ .had:before{
+   content: "";
+   display:block;
+   width: 600px;
+   height: 2px;
+   position:absolute;
+   background: gray;
+   left: 0;
+   top:50%;
+   z-index:-2;
+ }
+ .had:after{
+   content: "";
+   display:block;
+   width: 600px;
+   height: 2px;
+   position: absolute;
+   background:gray;
+   right: 0;
+   top:50%;
+   z-index:-2;
+ }
+ .new{
+   background: #fff;
+ }
+
+ .audi{
+   font-family: 'Racing Sans One', cursive;
+   margin: 50px auto;
+   text-align: center;
+   font-size: 40px;
+   max-width: 1400px;
+   position: relative;
+
+ }
+ .audi:before{
+   content: "";
+   display:block;
+   width: 650px;
+   height: 2px;
+   position:absolute;
+   background: gray;
+   left: 0;
+   top:50%;
+   z-index:-2;
+ }
+ .audi:after{
+   content: "";
+   display:block;
+   width: 650px;
+   height: 2px;
+   position: absolute;
+   background:gray;
+   right: 0;
+   top:50%;
+   z-index:-2;
+ }
+ .btn{
+   align-items:stretch;
+  text-align:center;
+  font-size: 18px;
+  background: #7DA2A9;
+  border: #051622;
+  border-style:outset;
+  border-width: thin;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: 'Oswald', sans-serif;
+margin-left: 600px;
+margin-bottom: 15px;
+margin-top: 15px;
+}
+.faq{
+  background-color: #EEFBFF;
+  padding: 34px;
+
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.drd{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.accordion{
+ max-width: 1000px;
+}
+.accordion .contentBx{
+position: relative;
+margin: 10px 20px;
+}
+.accordion .contentBx .label{
+  position: relative;
+  padding: 10px;
+  background: #efefef;
+  color: #051622;
+  cursor: pointer;
+}  
+.accordion .contentBx .label::before{
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  
+} 
+/* .accordion .contentBx.active .label::before{
+  content: "-";
+} */
+.accordion .contentBx .content{
+  position: relative;
+  /* padding: 5px; */
+  background: #fff;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  overflow-y: auto;
+}
+/* .accordion .contentBx.active .content{
+  height: 150px;
+
+}
+.accordion .contentBx .label::before */
+.contentBx:target .content{
+max-height: 20rem;
+}
+.contact{
+  margin-top: 25px;
+border-bottom: #051622 ridge thin;
+}
+#igm{
+  padding:  80px 60px;
+}
+.ach{
+  font-size: 20px;
+  border: rgb(169, 165, 165) ridge thin;}
+.abd{
+  border-bottom: black ridge thin;
+  border-left: black ridge thin;
+  border-right: black ridge thin;
+  position: relative;
+  margin-top:;
+  margin-left: 14px;
+}
+.ach:hover{
+  color:#051622;
+  background-color:#EEFBFF;
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+ 
+}
+.faq:hover{
+  border: black ridge thin;
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+}
+ .fg:hover{
+  border: black ridge thin;
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+ }
+ .fgimg:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+ }
+ .fgimg{
+  width: 1000px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding-bottom: 150px;
+ }
+ .log:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+ }
+ .crd:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+
+ }
+ .logftr:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
+ }
+ .gal{
+  font-family: 'Racing Sans One', cursive ;
+  justify-content: center;
+  text-align: center;
+
+ }
+.gal:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5); 
+}
+.fgl{
+  margin-top: 100px;
+  font-family: 'Racing Sans One', cursive ;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+}
+.fgl:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5); 
+}
+.help{
+  font-family: 'Racing Sans One', cursive ; 
+
+}
+.form-control:hover{
+  box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);  
+}

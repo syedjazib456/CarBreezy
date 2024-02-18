@@ -1,0 +1,63 @@
+.chead{
+    font-size: 70px;
+    text-align: center;
+    justify-content: center;
+  color: black;
+    padding-top: 80px;
+    font-family:  'Racing Sans One', cursive;
+}
+.img{
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.head{
+  font-size: 23px;
+  text-align: center;
+}
+.para{
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+color: black;
+line-height: 20px;
+  font-family:'Racing Sans One' ,cursive;
+}
+.per{
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+color: gray;
+
+}
+.cont{
+  box-sizing: border-box;
+  border: gray ridge thick;
+  font-family:  'Racing Sans One', cursive;
+  margin: 100px;
+
+}
+.one{
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+.two{
+  text-align: center;
+  font-size: 34px;
+  color: #8AA899;
+}
+.three{
+  text-align: center;
+  font-size: 25px;
+  padding: 30px;
+}
+.four{
+  text-align: center;
+  font-size: 20px;
+}
+.ccrd{
+  margin-top: 34px;
+}

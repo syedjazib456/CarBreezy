@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+{font-family: 'Racing Sans One', cursive;}
+{font-family: 'Oswald', sans-serif;}
+
+.navbar
+{   border-top-style: groove;
+  border-top-color: #7DA2A9;
+	border-bottom-style:inset;
+	border-bottom-color:#7DA2A9; 
+	border-bottom-width:thin;}
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+	background-color: rgba(255, 255, 255, .15);}
+.navbar-brand
+{   font-size: 40px;
+	text-align: left;
+	align-items: center;
+	padding: 10px 10px;
+	color:#051622; 
+	font-family: 'Racing Sans One', cursive;
+    line-height: 12px;}
+.navbar a
+{  font-size: 18px;
+   color:#051622;
+   text-align:justify;
+   text-decoration: none;
+   padding: 7px 12px;
+   font-family: 'Cabin Condensed', sans-serif;
+   align-items:flex-start;}
+.navbar a:hover
+{ color:#051622;
+  padding: 6px 10px;
+  background:#EFF1F3;
+  border-radius: 15px;}
+.carousel-indicators
+{ position:inherit;
+ }
+.carousel-indicators button.thumbnail 
+{ width: 100px;
+	padding: 1px 2px;
+  justify-content: space-between;
+  opacity: 3px;}
+.carousel-indicators button.thumbnail:not(.active)
+{ opacity:.9;
+	
+}
+.pre
+{  background-color:rgb(220, 224, 228);
+   border-bottom:#7DA2A9 ridge thin;
+   padding: 8px 10px;
+   margin-top: 100px;
+	align-items: center;
+ }
+.pre p
+{text-align:left;
+ padding: 6px 1px;
+ line-height: 20px;
+ font-size: 15px;}
+.p1 a 
+{text-align: right;
+ padding: 6px 1px;
+ line-height: 20px;
+ font-size: 15px;
+ color:black;
+ text-decoration: none;}
+
+#btn1,.btn
+{ text-align: center;
+  font-size: 18px;
+  margin-left: 70px;
+  background: #7DA2A9;
+  border: #051622 outset thin;
+  border-radius: 20px;
+  padding: 7px 30px;
+  font-family: 'Oswald', sans-serif;}
+h5
+{ font-size: 30px;
+	text-align:left;
+	color:#051622; 
+	padding:10px 10px;
+	font-family: 'Oswald', sans-serif;}
+h6
+{border-top:#7DA2A9 ridge thin;
+text-align:center;
+font-size: 20px;
+color: black;
+padding:10px 10px;
+font-family: 'Oswald', sans-serif;}
+.p2
+{text-align:left;
+ align-items: center;
+ justify-content: center;
+ padding: 8px 10px;
+ font-size: 15px;
+ color:black;
+ text-decoration: none;}
+.p3
+{text-align:left;
+ align-items: center;
+ justify-content: center;
+ padding: 10px 10px;
+ font-size: 15px;
+ color:black;
+ text-decoration: none;}
+.p2:hover
+{color:#7DA2A9;
+border-bottom:#7DA2A9 solid thin;}
+.div2,.div3,.div4,.div5
+{display: none;}
+
+.heading
+{ background: url("../assets/120628-312x312.jpg");
+  background-size: 100% 100%;
+  box-sizing: border-box; }
+.heading h4
+{ font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 8px 10px;
+  font-family: 'Racing Sans One', cursive;}
+.hiwork h2
+{ font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  align-items: center;
+  padding: 10px 10px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork p
+{ font-size: 16px;
+  text-align:center;
+  align-items: center;
+  padding: 10px 10px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork h3
+{ font-size: 30px;
+  font-weight: bold;
+  text-align:left;
+  align-items: center;
+  padding: 4px 60px;
+  font-family: 'Oswald', sans-serif;}
+.hiwork h4
+{ font-size: 18px;
+  font-weight: bold;
+  text-align:left;
+  align-items: center;
+  padding: 4px 10px;
+  font-family: 'Oswald', sans-serif;}
+.contact h1
+{  border-top:#7DA2A9 ridge thin;
+  font-size: 34px;
+  color: #051622;
+  text-align: center;
+  padding: 4px 10px;
+  font-family: 'Racing Sans One', cursive;}
+.contact p
+{ font-size: 14px;
+  text-align:center;
+  align-items: center;}
+{   background:#E7ECEF;
+	width: 100%;
+    border-top-style: groove;
+	border-top-color: #7DA2A9;}
+.ftr{
+	background-color:rgb(220, 224, 228);}
+.ftr{ border-top-style: groove;
+	border-top-color: #7DA2A9;
+	}
+  .logftr:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.5);
